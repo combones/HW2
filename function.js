@@ -44,6 +44,10 @@ $(function(){
 		}
 		
 		if ($this.hasClass('clear')) {
+			if (capslock === true){
+				$('.letter').toggleClass('uppercase');
+				capslock = false;
+			}
 			var html = $write.html();
 			$write.html(html.substr(0, html.length - html.length));
 			return false;
