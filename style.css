@@ -36,9 +36,6 @@ list-style: none;
 	border: 1px solid #1affa3;
 	-webkit-border-radius: 20px;
 	}
-		.capslock, .tab, .left-shift {
-		clear: left;
-		}
 			#keyboard .tab, #keyboard .delete {
 			width: 70px;
 			}
