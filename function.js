@@ -48,6 +48,11 @@ $(function(){
 				$('.letter').toggleClass('uppercase');
 				capslock = false;
 			}
+			if (shift === true){
+				$('.letter').toggleClass('uppercase');
+				$('.symbol span').toggle();
+				shift = false;
+			}
 			var html = $write.html();
 			$write.html(html.substr(0, html.length - html.length));
 			return false;
